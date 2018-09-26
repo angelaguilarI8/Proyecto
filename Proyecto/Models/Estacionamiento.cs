@@ -11,9 +11,9 @@ namespace Proyecto.Models
     {
         public int EstacionamientoID { get; set; }
         [Required]
-        [DataType(DataType.DateTime)]
+        [DataType(DataType.Date)]
         [DisplayName("Create Date")]
-        [DisplayFormat(DataFormatString = "{00:dd/MM/yy}")]
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yy}")]
         public DateTime Fecha { get; set; }
         [Required]
         [Validation]

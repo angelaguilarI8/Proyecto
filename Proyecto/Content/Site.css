@@ -1,10 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
-	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	background:url(../Content/fondo.png), #0000;
-	background-size:cover;
-	background-attachment:fixed;
+
 }
 
 /* Set padding to keep content from hitting the edges */

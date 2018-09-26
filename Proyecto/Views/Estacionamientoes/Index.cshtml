@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<Proyecto.Models.Estacionamiento>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Datos";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -10,8 +10,8 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-<table class="table" style="background-color:antiquewhite">
-    <tr style="background-color:gray">
+<table class="table">
+    <tr>
         <th>
             @Html.DisplayNameFor(model => model.Fecha)
         </th>
