@@ -6,7 +6,7 @@ using System.Web;
 
 namespace Proyecto.Models
 {
-    public class EstacionamientoInitializer : DropCreateDatabaseAlways<EstacionamientoDB>
+    public class EstacionamientoInitializer : CreateDatabaseIfNotExists<EstacionamientoDB>
     {
         protected override void Seed(EstacionamientoDB context)
         {
